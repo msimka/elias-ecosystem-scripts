@@ -32,6 +32,13 @@ Configure P2P file synchronization for constellation nodes:
 curl -fsSL https://raw.githubusercontent.com/msimka/elias-ecosystem-scripts/master/syncthing-constellation-setup.sh | bash
 ```
 
+### mu4e Email Integration
+Set up org-mode email workflow with multi-platform support:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/msimka/elias-ecosystem-scripts/master/mu4e-elias-setup.sh | bash
+```
+
 ### Available Scripts
 
 - **`guix-elias-channel-setup.sh`** - Interactive Guix channel configuration
@@ -53,6 +60,11 @@ curl -fsSL https://raw.githubusercontent.com/msimka/elias-ecosystem-scripts/mast
   - Automated Syncthing installation and configuration
   - Node-specific device naming and folder setup
   - Auto-discovery and connection management
+
+- **`mu4e-elias-setup.sh`** - mu4e email integration with org-mode workflow
+  - Automated mu4e and OfflineIMAP installation
+  - Multi-account email configuration for all platforms
+  - ApeRocks task integration and email analytics
 
 ## Features
 
