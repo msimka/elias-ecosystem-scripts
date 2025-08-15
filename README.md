@@ -18,6 +18,13 @@ Deploy Mail-in-a-Box for 30-day relay architecture:
 curl -fsSL https://raw.githubusercontent.com/msimka/elias-ecosystem-scripts/master/mail-in-a-box-setup.sh | sudo bash
 ```
 
+### Telnyx API Testing
+Test CoolGirls platform integration with Telnyx services:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/msimka/elias-ecosystem-scripts/master/telnyx-integration-test.py | python3
+```
+
 ### Available Scripts
 
 - **`guix-elias-channel-setup.sh`** - Interactive Guix channel configuration
@@ -29,6 +36,11 @@ curl -fsSL https://raw.githubusercontent.com/msimka/elias-ecosystem-scripts/mast
   - Automated Mail-in-a-Box installation on Ubuntu 22.04
   - DNS configuration guidance
   - SSL certificate automation
+
+- **`telnyx-integration-test.py`** - Telnyx API integration testing for CoolGirls platform
+  - SMS, Voice, and eSIM capability testing
+  - Account balance and connection verification
+  - Comprehensive test suite with detailed reporting
 
 ## Features
 
