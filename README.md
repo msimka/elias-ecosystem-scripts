@@ -25,6 +25,13 @@ Test CoolGirls platform integration with Telnyx services:
 curl -fsSL https://raw.githubusercontent.com/msimka/elias-ecosystem-scripts/master/telnyx-integration-test.py | python3
 ```
 
+### Constellation Node Setup
+Configure P2P file synchronization for constellation nodes:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/msimka/elias-ecosystem-scripts/master/syncthing-constellation-setup.sh | bash
+```
+
 ### Available Scripts
 
 - **`guix-elias-channel-setup.sh`** - Interactive Guix channel configuration
@@ -41,6 +48,11 @@ curl -fsSL https://raw.githubusercontent.com/msimka/elias-ecosystem-scripts/mast
   - SMS, Voice, and eSIM capability testing
   - Account balance and connection verification
   - Comprehensive test suite with detailed reporting
+
+- **`syncthing-constellation-setup.sh`** - Constellation P2P file synchronization setup
+  - Automated Syncthing installation and configuration
+  - Node-specific device naming and folder setup
+  - Auto-discovery and connection management
 
 ## Features
 
