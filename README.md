@@ -11,12 +11,24 @@ Eliminates heredoc copy-paste errors for constellation node setup:
 curl -fsSL https://raw.githubusercontent.com/msimka/elias-ecosystem-scripts/master/guix-elias-channel-setup.sh | bash
 ```
 
+### Email Server Deployment
+Deploy Mail-in-a-Box for 30-day relay architecture:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/msimka/elias-ecosystem-scripts/master/mail-in-a-box-setup.sh | sudo bash
+```
+
 ### Available Scripts
 
 - **`guix-elias-channel-setup.sh`** - Interactive Guix channel configuration
   - Handles both Elias + default channels and default-only fallback
   - Automatic error handling and recovery
   - Clear progress feedback
+
+- **`mail-in-a-box-setup.sh`** - Email server deployment for 30-day relay architecture
+  - Automated Mail-in-a-Box installation on Ubuntu 22.04
+  - DNS configuration guidance
+  - SSL certificate automation
 
 ## Features
 
